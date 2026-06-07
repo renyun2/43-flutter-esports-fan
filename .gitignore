@@ -4,6 +4,10 @@
 **/dist/
 **/.venv/
 **/.env
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
 **/package-lock.json
 **/yarn.lock
 **/pnpm-lock.yaml
@@ -15,3 +19,6 @@
 **/Gemfile.lock
 **/uv.lock
 backend/data/
+*.db-journal
+*.db-shm
+*.db-wal
